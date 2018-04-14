@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslatorTextAPI", "Transl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TranslateTest", "TranslateTest\TranslateTest.csproj", "{7D857A95-8DBB-4C2A-A44F-AB6377F97EDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gilliland_FinalCSC373", "Gilliland_FinalCSC373\Gilliland_FinalCSC373.csproj", "{4F753470-2301-48B6-823F-485A913DC93C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{7D857A95-8DBB-4C2A-A44F-AB6377F97EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D857A95-8DBB-4C2A-A44F-AB6377F97EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D857A95-8DBB-4C2A-A44F-AB6377F97EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F753470-2301-48B6-823F-485A913DC93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F753470-2301-48B6-823F-485A913DC93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F753470-2301-48B6-823F-485A913DC93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F753470-2301-48B6-823F-485A913DC93C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{BDE86142-C2FF-4D1A-8495-EA07B52D60A8} = {08D9A737-5DFE-466B-A2C3-1B0225D91468}
 		{14D76E6F-D95C-40D2-BAF1-CC8A07D536F1} = {08D9A737-5DFE-466B-A2C3-1B0225D91468}
 		{7D857A95-8DBB-4C2A-A44F-AB6377F97EDC} = {58D34A0B-44BB-4DE0-87E9-7422BA9EC360}
+		{4F753470-2301-48B6-823F-485A913DC93C} = {58D34A0B-44BB-4DE0-87E9-7422BA9EC360}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D33D4E35-262D-431C-8873-8AFF2D8BC2E9}

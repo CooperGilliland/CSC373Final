@@ -46,7 +46,6 @@ namespace TranslatorTextAPI
                 string result = await response.Content.ReadAsStringAsync(); //read back results
                 var content = XElement.Parse(result).Value; //pull string out of response 
                 results = content;
-                //Console.WriteLine(result);
             }
             return results;
 

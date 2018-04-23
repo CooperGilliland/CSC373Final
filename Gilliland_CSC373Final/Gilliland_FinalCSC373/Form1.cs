@@ -15,9 +15,18 @@ namespace Gilliland_FinalCSC373
     public partial class Form1 : Form
     {
         //Default to english
-        private int langCode = 2;
-        //Array of language codes
-        private static string[] langCodes = new string[]{"af", "fr", "en-us"};
+        private int langCode = 14;
+        //Array of language codes that corresponds to the drop down
+        //selection on the form 
+        private static string[] langCodes = new string[]
+        {
+            "af", "ar", "bn","bs","bg","yue","ca","zh-Hans","zh-Hant",
+            "hr","cs","da","nl","en","et","fj","fil","fi","fr","de","el",
+            "ht","he","hi","mww","hu","id","it","ja","sw","tlh","tlh-Qaak",
+            "ko","lv","lt","mg","ms","mt","nb","fa","pl","pt","otq","ro",
+            "ru","sm","sr-Cyrl","sr-Latn","sk","sl","es","sv","ty","ta",
+            "th","to","tr","uk","ur","vi","cy","yua"
+        };
         private string filePath = "";
         private static Logger ErrorLogger = LogManager.GetCurrentClassLogger();
         public Form1()
